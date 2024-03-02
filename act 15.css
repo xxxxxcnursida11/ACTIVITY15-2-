@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+   background-color: aliceblue;
+    font-size: 90px;
+    font: 16px/22px Garamond, Georgia,;
+    text-shadow: 6px 9px #ad8b8b;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(8b82dc859fd753e2c8c495893865aa92.jpg);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.container {
+    justify-self: center;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-image: url(9d05ae456c055d2ac0c1e733f10ef336.jpg);
+    border-radius: 20px;
+    box-shadow: 1 1 20px rgba(197, 36, 36, 0.1);
+}
+
+textarea {
+    background-color: lightblue;
+    width: calc(100% - 40px);
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+select {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid lightsalmon;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px 50px;
+    border-radius: 5px;
+    width: 150px;
+    box-shadow: 7px 5px pink;
+    background-color: lightcoral;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 2vh;
+    
+  }
+
+button:hover {
+    background: linear-gradient(93deg, black, grey);
+
+    }
